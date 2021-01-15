@@ -1,0 +1,19 @@
+.step {
+  display: none;
+}
+
+main[data-correct="correct"] .correct {
+  display: block;
+}
+
+main[data-correct="incorrect"] .incorrect {
+  display: block;
+}
+
+main[data-stars="1"] .stars1 {
+  display: block;
+}
+
+main[data-stars="2"] .stars2 {
+  display: block;
+}
