@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: var(--header-height);
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  background: darkred;
+}
+
+.header p {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  width: 90%;
+  left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a {
+  color: white;
+  font-weight: bold;
+}
