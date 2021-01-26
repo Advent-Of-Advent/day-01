@@ -1,4 +1,12 @@
 .header {
+  /* css reset, will go in global.css for next part */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   width: 100%;
   position: fixed;
   top: 0;
