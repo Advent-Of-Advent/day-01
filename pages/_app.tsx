@@ -8,7 +8,7 @@ import "../global.css";
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <DisclaimerBar link="https://adventofadvent.com/01-minimum-viable-blog-post" />
+      <DisclaimerBar link="https://adventofadvent.com/minimum-viable-blog-post" />
       <MainContainer>
         <Component {...pageProps} />
       </MainContainer>
